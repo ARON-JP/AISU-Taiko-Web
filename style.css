@@ -137,3 +137,27 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* 水平方向の中央揃え */
+  justify-content: center; /* 垂直方向の中央揃え（必要に応じて） */
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
